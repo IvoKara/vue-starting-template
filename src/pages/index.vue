@@ -12,16 +12,21 @@ useHead({
   </PageHeading>
   <p text-lg>
     You’ve successfully created a project with
-    <span text-emerald-5 dark:text-emerald>
-      Vite
-    </span> +
-    <span text-emerald-5 dark:text-emerald>
-      Vue 3
-    </span>!
+    <a
+      href="https://vitejs.dev/"
+      text-emerald-5 dark:text-emerald
+      hover:bg-emerald="400/40" transition-500
+    >Vite</a> +
+    <a
+      href="https://vuejs.org/"
+      text-emerald-5 dark:text-emerald
+      hover:bg-emerald="400/40" transition-500
+    >Vue 3</a>!
   </p>
   <img
     m-2 w-100 h-100
     class="
+    transition-200
     hover:drop-shadow-[0_0_2rem_rgb(52,211,153)]
     dark:hover:drop-shadow-[0_0_2rem_rgb(4,120,87)]
     "
