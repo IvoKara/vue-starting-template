@@ -21,7 +21,7 @@ export default defineConfig({
       defaultLayout: 'default',
     }),
     AutoImport({
-      dirs: ['composables'],
+      dirs: ['./src/composables'],
       imports: [
         'vue',
         'vue-router',
