@@ -35,6 +35,8 @@ useHead({
   >
   <button
     class="btn-animation"
+    transition-colors-300
+    hover:bg-emerald-600
     bg-emerald text-black
     rounded-2 px-5 py="3.5"
     @click="toggleDark()"
